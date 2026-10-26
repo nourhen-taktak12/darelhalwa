@@ -1,0 +1,96 @@
+*, *::before, *::after {
+     box-sizing: border-box; 
+    }
+
+:root { --miel: #8b2f2f;
+     --chocolat: #4a2c1a; 
+     --creme: #fff8ef; 
+     --espace: 1rem;
+     --gris-texte: #3a3a3a;
+     --pistache:#6b8e4e;
+    }
+
+h1{
+    color: red;
+}
+body{
+    background-color: var(--creme); 
+    color: var(--gris-texte);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.7;
+    font-size: 1rem;
+
+}
+h2{
+    color: var(--chocolat);
+    border-bottom: 2px var(--miel) ;
+
+}
+nav a{
+    text-decoration:none;
+    color: var(--chocolat);
+    font-weight: bold;
+}
+strong{
+    color: var(--miel);
+
+}
+footer{
+    background-color: var(--chocolat);
+    color: var(--creme);
+    text-align: center;
+}
+p,li{
+    line-height: 1.6;
+}
+#contact{
+    background-color: white;
+    padding: var(--espace);
+}
+/* .mise-en-avant{
+    font-weight: bold;
+    font-size: 1.2rem;
+} */
+a:link{
+   color: var(--miel); 
+}
+a:visited{
+    color: var(--pistache);
+}
+a:hover{
+    text-decoration: underline;
+    color: var(--chocolat);
+}
+a:active{
+    color: var(--chocolat);
+}
+.carte-info{
+    width: 400px;
+    padding: 20px;
+    border: 2px  var(--miel);
+    margin: 30px;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+}
+thead{
+    background-color:var(--miel);
+    color:var(--chocolat);
+th,td{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+tbody td:last-child{
+    text-align: right;
+}
+tbody tr:nth-child(even){
+    background-color: #faf3e8;
+
+}
+caption{
+    font-style: italic;
+    caption-side: bottom;
+}
+}
+
