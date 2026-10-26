@@ -8,10 +8,10 @@
 </head>
 <body>
 
-    <header>
+    <header id="head">
         <h1> Dar El Halwa</h1>
         <figure>
-            <img src="image/pubpatis.jpg" alt="Vitrine garnie de mignardises, cornes de gazelle et makrouds">
+            <img src="image et media/annonce.jpeg"  width="500px" height="150px" alt="Vitrine garnie de mignardises, cornes de gazelle et makrouds">
             <figcaption>Notre vitrine de mignardises traditionnelles.</figcaption>
         </figure>
         <p>Pâtisserie fine tunisienne depuis 1900</p>
@@ -31,19 +31,33 @@
     <main>
         <section id="apropos">
             <h2>À propos</h2>
-            <p class="mise-en-avant">Un monde magique de gâteries du quotidien et de petits plaisirs de la bouche. Nous proposons une gamme variée de mignardises, pâtisseries traditionnelles, chocolats, macarons sucrés et salés, brochettes et verrines.</p>
-            <p><a href="#sommaire">↑ Retour au sommaire</a></p>
+            <p class="mise-en-avant">
+            Un monde magique de gâteries du quotidien et de petits plaisirs de la bouche.
+            Nous proposons une gamme variée de mignardises, pâtisseries traditionnelles, chocolats, macarons sucrés et salés, brochettes et verrines.</p>
         </section>
 
         <section id="produits">
             <h2>Nos produits</h2>
-            <ul>
-                <li><strong>Le sucré fin</strong> (<em>gâteaux, morceaux, bouchées sucrées, glaces</em>)</li>
-                <li><strong>Le salé fin</strong> (<em>bouchées froides, brochettes, verrines froides</em>)</li>
-                <li><strong>Pains &amp; viennoiseries</strong> (<em>pains, viennoiseries</em>)</li>
-                <li><strong>L'épicerie fine</strong> (<em>confitures, miels, granola</em>)</li>
+            <ul class="grille-produits">
+                <li class="carte">
+                    <h3>Le sucré fin</h3>
+                     <p>gâteaux, morceaux, bouchées sucrées, glaces</p>
+                    <p class="prix">a partir de 4dt </p>
+                </li>
+                <li class="carte"><h3>Le salé fin</h3>
+                    <p>bouchées froides, brochettes, verrines froides</p>
+                <p class="prix">a partir de 4.5dt </p>
+            </li>
+                <li class="carte"><h3>Pains &amp; viennoiseries</h3>
+                    <p>pains, viennoiseries</p>
+                <p class="prix"> a partir de 3dt </p>
+            </li>
+                <li class="carte"><h3>L'épicerie fine</h3>
+                    <p>onfitures, miels, granola</p>
+                <p class="prix"> a partir de 5dt</p>
+            </li>
             </ul>
-            <p><a href="#sommaire">↑ Retour au sommaire</a></p>
+        
         </section>
 
         <section id="services">
@@ -58,48 +72,57 @@
                 <dt>Conseil</dt>
                 <dd>Pour toute commande supérieure à 500 DT, une conseillère vous contacte par téléphone pour vous orienter.</dd>
             </dl>
-            <p><a href="#sommaire">↑ Retour au sommaire</a></p>
-        </section>
+         </section>
 
         <section id="temoignages">
             <h2>Ils parlent de nous</h2>
             <figure>
-                <video controls width="640" height="360">
-                    <source src="image/media/Coffee time - The Worlds best Relaxing video in 2 minutes.mp3" type="video/mp4">
+                    <audio src="image et media/audio.mp3" type="audio/mp3">
                     Votre navigateur ne prend pas en charge la lecture de cette vidéo.
-                </video>
+                </audio>
                 <figcaption>Reportage sur notre savoir-faire artisanal</figcaption>
             </figure>
 
             <figure>
-                <audio controls>
-                    <source src="image/media/videoplayback.mp4" type="audio/mpeg">
+               <video controls width="640" height="360">
+                    <source src="image et media/video.mp4" type="video/mp4">
                     Votre navigateur ne prend pas en charge l'élément audio.
-                </audio>
+                </video>
                 <figcaption>Écoutez les avis de nos clients</figcaption>
             </figure>
-            <p><a href="#sommaire">↑ Retour au sommaire</a></p>
-        </section>
-
-        <section id="contact" class="carte-info">
-            <h2>Contact</h2>
-            <ol>
-                <li>Route de Tunis km 5, Sfax 3044, Tunisie</li>
-                <li><a href="mailto:contact@darelhalwa.tn?subject=Demande%20de%20renseignements">contact@darelhalwa.tn</a></li>
-                <li><a href="tel:+21674000000">+216 74 000 000</a></li>
-            </ol>
-            <p><a href="#sommaire">↑ Retour au sommaire</a></p>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-container">
+
+    <div class="footer-box">
+      <h2>Contact</h2>
+      <a href="mailto:contact@darelhalwa.tn">
+        contact@darelhalwa.tn
+      </a>
+      <a href="tel:+21674000000">
+        +216 74 000 000
+      </a>
+    </div>
+
+    <div class="footer-box">
+      <h2>Horaires</h2>
+      <p>Lundi - Vendredi : 08h00 - 17h00</p>
+      <p>Samedi : 08h00 - 13h00</p>
+      <p>Dimanche : Fermé</p>
+    </div>
+    <div>
         <p>Dar El Halwa &copy; 2026</p>
         <p>Suivez-nous : 
             <a href="https://www.facebook.com/darelhalwa" target="_blank" rel="noopener">Facebook</a> | 
             <a href="https://www.instagram.com/darelhalwa" target="_blank" rel="noopener">Instagram</a> | 
             <a href="https://www.linkedin.com/company/darelhalwa" target="_blank" rel="noopener">LinkedIn</a>
         </p>
+    </div>
     </footer>
+
+    <a href="#head" class="btn-top">↑</a>
+    
 
 </body>
 </html>
